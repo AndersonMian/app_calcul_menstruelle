@@ -51,16 +51,11 @@ def main():
         for day in cycle_days:
             day_str = day.strftime('%Y-%m-%d')
             if day in period_days:
-                st.markdown(f"<span style='color: red;' title='Période de règles'>{day_str}</span>", unsafe_allow_html=True)
+                st.markdown(f"<span style='color: red;'>{day_str}</span>", unsafe_allow_html=True)
             elif day in ovulation_days:
                 st.markdown(f'<span style="color: green;" title="Période d\'ovulation">{day_str}</span>', unsafe_allow_html=True)
             else:
                 st.write(day_str)
-        
-        # Afficher les descriptions
-        st.write("### Descriptions des périodes")
-        st.write("**Période de règles (en rouge)** : Cette période correspond aux jours pendant lesquels une personne menstruée a ses règles. La durée moyenne des règles est de 3 à 7 jours.")
-        st.write("**Période d'ovulation (en vert)** : Cette période correspond aux jours autour de l'ovulation, généralement au milieu du cycle. C'est la période où la fécondité est la plus élevée.")
 
 if __name__ == "__main__":
     main()
