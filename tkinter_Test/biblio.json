@@ -1,0 +1,51 @@
+{
+    "questionnaire" : [{
+        "question":"Quelle est l'artiste qui a participé à rendre la tarte tropézienne célèbre",
+        "option":["France Gall","Dalida","Sylvie Vartan","Brigitte Bardot"],
+        "reponse":"Brigitte Bardot"
+    },
+    {
+        "question":"Quelle invention est attribuée à Benjamin Francklin",
+        "option":["Le paratonnerre","la machine à vapeur","la machine à calculer","l'automobile"],
+        "reponse":"Le paratonnerre"
+    },
+    {
+        "question":"Quel président français est à l'origine de la construction de Beaubourg ?",
+        "option":["Nicolas Sarkozy","Georges Pompidou","Jacque Chirac","Emmanuel Macron"],
+        "reponse":"Georges Pompidou"
+    },
+    {
+        "question":"Quel est le nom de ce célèbre monument portugais situé à Sintra ?",
+        "option":["Monastère Dos jeronimos","Palais de pena","Château saint george","Tour de Belem"],
+        "reponse":"Palais de pena"
+    },
+    {
+        "question":"Sur une montre, combien de tours de cadran la trotteuse effectue-t-elle en 3h30 ?",
+        "option":["160","210","230","360"],
+        "reponse":"210"
+    },
+    {
+        "question":"Quelle est la hauteur à la pointe de l’Everest ?",
+        "option":["7582m","9001m","8849m","9349m"],
+        "reponse":"8849m"
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
+}
